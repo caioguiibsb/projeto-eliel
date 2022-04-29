@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+
+}
+
+p {
+	color: rgb(0, 0, 0);
+}
+
+ul#menu {
+	background-color: rgba(65, 0, 0, 0.7);
+	text-align: left;
+	position: fixed;
+	width: 100%;
+}
+
+#menu li {
+	display: inline;
+	line-height: 60px;
+}
+
+#menu a:link,
+a:visited {
+	padding: 22px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-shadow: -1px -1px 5px #000;
+}
+
+#menu a:hover,
+a:active {
+	background-color: #bf040491;
+}
+
+#banner {
+	background-image: url("../bebidas/imagemdefundo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+
+#about {
+	background-color: #520000;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0rem;
+}
+
+#about p {
+	padding: 0 30px;
+	text-align: justify;
+}
+
+h1 {
+	color: rgb(255, 0, 0);
+	padding: 80px 0;
+	text-align: center;
+}
+
+#vodkas {
+	background-color: #520000;
+	width: 100%;
+	font-size: 2.0rem;
+	text-align: center;
+
+}
+
+.vodka {
+	width: 500px;
+	height: 600px;
+	border: 1px solid #FFF;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 25px #000;
+}
+
+#wisky {
+	background-color: #520000;
+	width: 100%;
+	font-size: 2.0rem;
+	text-align: center;
+
+}
+
+.wisky {
+	width: 500px;
+	height: 600px;
+	border: 1px solid #FFF;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 25px #000;
+}
+
+#cervejas {
+	background-color: #520000;
+	width: 100%;
+	font-size: 2.0rem;
+	text-align: center;
+
+}
+
+.bebidas {
+	width: 500px;
+	height: 600px;
+	border: 1px solid #FFF;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 25px #000;
+}
+
+
+#contact {
+	background-color: #520000;
+	font-size: 2.0rem;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#contact label {
+	display: block;
+}
+
+#contact input,
+textarea {
+	width: 400px;
+	font-size: 1.5rem;
+	padding: 10px;
+	border: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#contact button {
+	font-size: 2.0rem;
+	border: 0;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#contact button:hover {
+	background-color: #467302;
+}
